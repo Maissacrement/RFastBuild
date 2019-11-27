@@ -6,4 +6,4 @@ install.packages("caret")
 library(data.table)
 library(dplyr)
 
-df_data<-read.csv("…./Ventes.csv",header=T,sep=";")
+df_data<-read.csv("./Ventes.csv",header=T,sep=";")
