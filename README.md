@@ -8,7 +8,7 @@ assign remote default repo:
 - `make loadcran`
 
 install package:
-  - `make installpackage`
+  - `make installpackage` # For windows run cmd as admin
 
 run project:
   - `make runproject`
