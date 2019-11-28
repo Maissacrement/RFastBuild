@@ -10,7 +10,7 @@ help:
 	"
 
 installpackage:
-	Rscript installpackage
+	Rscript installpackage.R
 
 loadcran:
 	 Rscript .Rprofile

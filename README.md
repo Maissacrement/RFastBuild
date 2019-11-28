@@ -1,6 +1,21 @@
 # R-project
 
-# Linux
+# CMD
+
+doc : `make help`
+
+assign remote default repo:
+- `make loadcran`
+
+install package:
+  - `make installpackage`
+
+run project:
+  - `make runproject`
+
+# Dependencies
+
+## Linux
 
 Debian:
   - `sudo apt-get install r-base-core gcc`
@@ -8,9 +23,9 @@ Debian:
 Arch:
   - `sudo pacman -Syu r gcc gcc-fortran`
 
-# Windows
+## Windows
 
-## Downloads link
+### Downloads link
 
 R : `https://cran.r-project.org/bin/windows/base/`
 
@@ -18,6 +33,6 @@ GCC : `https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/`
 
 Make : `http://gnuwin32.sourceforge.net/packages/make.htm`
 
-## After downloads and install
+### After downloads and install
 
 set path with `autoconfpath.bat`
