@@ -13,3 +13,4 @@ loadcran:
 
 loadproject:
 	 Rscript test1.R
+	 exit 0
