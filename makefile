@@ -4,13 +4,17 @@
 help:
 	echo "presentation"
 	echo -e "\
+		make installpackage \n \
 		make loadcran \n \
 		make loadproject \n \
 	"
 
+installpackage:
+	Rscript installpackage
+
 loadcran:
 	 Rscript .Rprofile
 
-loadproject:
-	 Rscript test1.R
+runproject:
+	 Rscript analyse.R
 	 exit 0
