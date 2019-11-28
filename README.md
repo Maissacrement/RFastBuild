@@ -12,8 +12,10 @@ Arch:
 
 ## Downloads link
 
-R : `https://cran.r-project.org/bin/windows/base/`=
+R : `https://cran.r-project.org/bin/windows/base/`
+
 GCC : `https://osdn.net/projects/mingw/downloads/68260/mingw-get-setup.exe/`
+
 Make : `http://gnuwin32.sourceforge.net/packages/make.htm`
 
 ## After downloads and install
